@@ -27,8 +27,7 @@ def hash_types(file_name,hash_type,hash_value):
         except IOError:
             print("File name ERROR...")
 ################################################################################### 
-    elif hash_type == 'sha1' or hash_type == 'SHA1' or len(hash_value) == 40:
-                            
+    elif hash_type == 'sha1' or hash_type == 'SHA1' or len(hash_value) == 40:                   
         try:            
             with open(file_name,'r') as _file_:
                 for line in _file_:
@@ -38,8 +37,7 @@ def hash_types(file_name,hash_type,hash_value):
         except IOError:
             print("File name ERROR...")  
 ###################################################################################         
-    elif hash_type == 'sha224' or hash_type == 'SHA224' or len(hash_value) == 56:
-                            
+    elif hash_type == 'sha224' or hash_type == 'SHA224' or len(hash_value) == 56:                 
         try:            
             with open(file_name,'r') as _file_:
                 for line in _file_:
@@ -49,8 +47,7 @@ def hash_types(file_name,hash_type,hash_value):
         except IOError:
             print("File name ERROR...")
 ###################################################################################
-    elif hash_type == 'sha256' or hash_type == 'SHA256' or len(hash_value) == 64:
-                            
+    elif hash_type == 'sha256' or hash_type == 'SHA256' or len(hash_value) == 64:         
         try:            
             with open(file_name,'r') as _file_:
                 for line in _file_:
@@ -60,8 +57,7 @@ def hash_types(file_name,hash_type,hash_value):
         except IOError:
             print("File name ERROR...")
 ###################################################################################
-    elif hash_type == 'sha384' or hash_type == 'SHA384' or len(hash_value) == 96:
-                            
+    elif hash_type == 'sha384' or hash_type == 'SHA384' or len(hash_value) == 96:                        
         try:            
             with open(file_name,'r') as _file_:
                 for line in _file_:
@@ -71,8 +67,7 @@ def hash_types(file_name,hash_type,hash_value):
         except IOError:
             print("File name ERROR...")
 ###################################################################################
-    elif hash_type == 'sha512' or hash_type == 'SHA512' or len(hash_value) == 128:
-                            
+    elif hash_type == 'sha512' or hash_type == 'SHA512' or len(hash_value) == 128:                            
         try:            
             with open(file_name,'r') as _file_:
                 for line in _file_:
